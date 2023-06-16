@@ -1,0 +1,22 @@
+{
+  "name": "tsnode",
+  "version": "1.0.0",
+  "description": "ts-node experiment.",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "yarn": "^1.22.19"
+  },
+  "main": "server.js"
+}
