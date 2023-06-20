@@ -16,7 +16,7 @@ function encrypt(text) {
     };
 }
 
-var encrypted = encrypt("hello my name is ...");     /*  add normal input */
+var encrypted = encrypt("hello my name is ...");                /*  add normal input */
 console.log("encrypted ~ ", encrypted.encryptedData)            /*  output encrypted */
 
 function decrypt(text) {
